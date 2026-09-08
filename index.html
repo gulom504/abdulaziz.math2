@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Math Master — 100 ta matematika mavzusi</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg-orb orb1"></div><div class="bg-orb orb2"></div>
+<header class="hero">
+  <div class="badge">MATH MASTER • 100 MAVZU</div>
+  <h1>Matematikani <span>osonroq</span> o‘rganing</h1>
+  <p>Har bir mavzuda tushuncha, formula, misol va eslab qolish usuli.</p>
+  <div class="author">Sayt muallifi: <b>Abdulaziz Abdug‘aniyev</b></div>
+</header>
+<main>
+  <section class="search-box">
+    <div class="search-title">🔎 Mavzu izlash</div>
+    <div class="search-row">
+      <input id="searchInput" type="search" placeholder="Masalan: Pifagor, foiz, tenglama..." autocomplete="off">
+      <button id="clearBtn" type="button">Tozalash</button>
+    </div>
+    <div class="result-info"><span id="resultCount">100</span> ta mavzu</div>
+  </section>
+  <section id="topicsContainer" class="topics"></section>
+</main>
+<div id="modal" class="modal" aria-hidden="true">
+  <div class="modal-card">
+    <button id="closeModal" class="close" aria-label="Yopish">×</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+<button id="topButton" class="top-btn" aria-label="Yuqoriga">↑</button>
+<footer>
+  <h2>💡 Yordam</h2>
+  <p>Matematika mavzusini toping va kartochkani bosing.</p>
+  <p>📧 <a href="mailto:abdulazizabduganiyevgul@gmail.com">abdulazizabduganiyevgul@gmail.com</a></p>
+  <p>📞 <a href="tel:+998938543428">+998 93 854 34 28</a></p>
+  <div class="copyright">© 2026 Abdulaziz Abdug‘aniyev</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
